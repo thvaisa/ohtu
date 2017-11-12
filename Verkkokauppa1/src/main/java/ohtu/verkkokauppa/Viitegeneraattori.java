@@ -1,7 +1,10 @@
 package ohtu.verkkokauppa;
 
 import ohtu.verkkokauppa.ViitegeneraattoriInterface;
+import org.springframework.stereotype.Component;
 
+
+@Component
 public class Viitegeneraattori implements ViitegeneraattoriInterface {
 
 
